@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Assignment 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+	<!--bootstrap5-->
+	
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!--custom script---->
+   <link rel="stylesheet"  href="css/style.css">
+      </head>
+      <body>
+      	<section>
+      		<container>
+      			<div class="row">
+              				<div class="col">
+              	                <h3 class="text-center text-warning mt-4">Categories</h3>
+                                <div class="underline mx-auto"></div>
+              	            </div>
+      	            <div class="text-center mt-4 button-group filter-button-group">
+                  	    <button data-filter="*"> All</button>
+            						<button data-filter=".action"> Action</button>
+            						<button data-filter=".drama"> Drama</button>
+            						<button data-filter=".scifi"> Scifi</button>
+                      </div>
+        
+  
+					         <div class="row mt-4 justify-content-center" id="grid">
+
+                					<div class="col-4 action">
+                						<div><img src="img/img/action1.jpg" class="img-fluid"></div>
+                					</div>
+                          <div class="col-4 action">
+                           <div> <img src="img/img/action2.jpg" class="img-fluid"></div>
+                          </div>
+                          <div class="col-4 action">
+                           <div> <img src="img/img/action3.jpg" class="img-fluid"></div>
+                          </div>
+
+      	        
+                <!------------------------------------------------------------->
+                
+                            <div class="col-4 action">
+                             <div> <img src="img/img/action4.jpg" class="img-fluid"></div>
+                            </div>
+                            <div class="col-4 drama">
+                              <div><img src="img/img/action5.jpg" class="img-fluid"></div>
+                            </div>
+                            <div class="col-4 drama">
+                             <div> <img src="img/img/drama1.jpg" class="img-fluid"></div>
+                            </div>
+              
+                <!-------------------------------------------------------------------->
+            
+                              <div class="col-4 drama">
+                              <div>  <img src="img/img/drama2.jpg" class="img-fluid"></div>
+                              </div>
+                              <div class="col-4 scifi">
+                                <div><img src="img/img/drama3.jpg" class="img-fluid"></div>
+                              </div>
+                              <div class="col-4 scifi">
+                                <div><img src="img/img/scifi1.jpg" class="img-fluid"></div>
+                              </div>
+                         </div>
+
+              
+      	    </container>
+      	</section>
+        <!--------------------------------------------------------------------------------------->
+            
+   <!---bootstrap js-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-------------------------font------------------------------------------------------------------>
+<script src="https://kit.fontawesome.com/8fa6b0c88c.js" crossorigin="anonymous"></script>
+
+<!--Jquery-->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!---------------------------------------filter----------------------------------------------------->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+<script src="js/script.js"> </script>
+
+         
+  </html>
